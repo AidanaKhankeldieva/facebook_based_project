@@ -532,13 +532,14 @@ footer{
 }
 .footer{
     background-color:rgb(25,157,229);
-    padding: 13px 8px;
+    padding: 13px 8px 13px 20px;
    
 }
 .bottom-footer{
     background-color: rgb(7,100,144);
-    padding: 8px 8px;
+    padding: 8px 8px 8px 20px;
     font-size: 12px;
+    
 
 }
 .footer-underline{
