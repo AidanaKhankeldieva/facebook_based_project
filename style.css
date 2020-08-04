@@ -1,22 +1,28 @@
 /* Vika - Navigation bar */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 231, 231);
+}
 .navbar {
     color: white;
-    background-color: #5dbcd2;
+    background-color: rgb(25,157,229);
     font-size: xx-large;
     font-style: normal;
     font-weight: bolder;
     line-height: 30px;
     width: 100%;
     overflow: auto;
-    padding: 0;
-    margin: 0;
+   
+    /* padding: 0;
+    margin: 0; */
 }
 
 /* Seytech */
 
 
 .active {
-    background-color: #003056;
+    background-color: rgb(7,100,144);
     width: 15%;
     padding: 0 10px 0 0;
 }
@@ -27,7 +33,22 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+    background-color:rgb(25,157,229) ;
+   
   }
+  /* .fa-fa-bell{
+      position: relative;
+  } */
+   .badge {
+    /* position: absolute; */
+    margin-left: 3px;
+    top: 10px;
+    right: -16px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: #3a9b3f;
+    color: white;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -75,15 +96,7 @@
     background-color: darkgrey;
 }
 
-.badge {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    padding: 5px 10px;
-    border-radius: 25px;
-    background: #3a9b3f;
-    color: white;
-}
+
 
 
 .avatar {
@@ -101,24 +114,25 @@
 
 .a-k-d{
     display: inline-flex;
+    background-color: white;
     
 }
 .left-sidebar{
     display: flex;
     flex-direction: column;
-    width: 22%;
-    margin: 25px 5px 0 35px;
+    width: 24%;
+    margin: 0 0 0 8px;
     font: normal 14px Helvetica;
 
 }
 
-/* .a-main-flex-container{
+.a-main-flex-container{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 80%;
     margin: 25px 5px 0 35px;
     font: normal 14px Helvetica;
-} */
+}
 
 .a-main-flex-container ul{
     list-style-type: none;
@@ -165,7 +179,11 @@
     color: black;
 }
 
-hr{
+.a-my-profile a:hover{
+    background-color: lightgray;
+}
+
+.my-hr{
     width: 90% ;
     border: 0;
     height: 0;
@@ -199,14 +217,14 @@ hr{
 }
 
 .a-my-list-of-photos{
-    padding:5px 5px 0 20px;
+    padding:5px 5px 0 2px;
     padding-bottom: 20px;
 }
     
 .a-my-list-of-photos img{
     float: left;
-    width: 48%;
-    height: 100px;
+    width: 50%;
+    height: 80px;
     padding: 5px;
     box-sizing: border-box;
 }
@@ -291,6 +309,10 @@ hr{
     padding: 5px 10px;
 }
 
+#a-ad-button i:hover{
+    background-color: rgb(109, 100, 100);
+}
+
 
 /* aidana's section css end */
 
@@ -302,10 +324,10 @@ hr{
     text-align: left;
 } */
 main {
-    width: 53%;
+    width: 55%;
     /* float: left; */
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    margin: 25px 10px;
+    margin: 25px 0px;
 
 }
 .post {
@@ -320,8 +342,10 @@ main {
 }
 button {
     color: white;
-    background-color: #4267B2;
+    background-color: rgb(25,157,229);
     padding: 5px 25px;
+    margin: 0;
+    
 }
 .clear {
     clear: both;
@@ -331,35 +355,59 @@ button:hover{
 }
 .box1 {
     border: 2px solid lightgray;
-    padding: 70px;
+    padding: 10px;
     margin-top: 20px;
+
+        /* float: left; */
+        width: 97%;
+        /* height: auto; */
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+}
+
+.my-p{
+  margin-top: 60px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+
+  
+}
+
+
+.time {
+    padding:0;
 }
 .img3 {
-    width: 100px;
-    height: auto;
+    width: 50%;
+    height: 200px;
     float: left;
     box-sizing: border-box;   
+    padding: 0 3px 5px 0;
 }
 .img4 {
-  width: 100px;
-  height: auto;
-  float: left;
+  width: 50%;
+  height: 200px;
+  /* float: left; */
   box-sizing: border-box;  
+  padding-bottom: 5px;
 }
 .box2 {
     border: 2px solid lightgray;
-    padding: 80px;
+    padding:10px;
     margin-top: 20px;
+    border-radius: 4px;
 }
 .box3 {
     border: 2px solid lightgray;
-    padding: 80px;
+    padding: 10px;
     margin-top: 20px;
+   border-radius: 4px;
 }
+/*  */
 .img2 {
-    width: 100px;
+    width: 100%;
     height: auto;
-    float:left;
+   
     box-sizing: border-box;
 }
   .name {
@@ -371,7 +419,10 @@ button:hover{
       color: lightgray;
   }
   .text {
-      float: left;
+      padding-top: 10px;
+      margin-top: 60px;
+      border-top: 1px solid lightgray
+      
   }
   .img1 {
       width: 70px;
@@ -407,6 +458,73 @@ button:hover{
     bottom: 0;
 } */
 
+/* Dani
+ */
+ .container {
+	background-color: #fff;
+    width: 15%;
+    margin: 25px 10px;
+	/* min-height: 300px; */
+	/* float: right; */
+}
+.react {
+text-align: center;
+font-size: 10px;
+margin-bottom: 20px;
+box-shadow: 0 0  2px 2px rgb(226, 225, 225);
+padding: 10px;
+}
+.react button {
+    width: 80%;
+    /* background-color:1px solid lightgrey; */
+    background-color: rgb(240, 235, 235);
+   margin: 0;
+   color: black;
+}
+.react img {
+    width: 90%;
+    height: 120px;
+}
+.img-wrapper {
+	background: rgb(25,157,229);
+	padding: 7px 3px;
+}
+.friend {
+text-align: center;
+font-size: 10px;
+margin-bottom: 20px;
+box-shadow: 0 0  2px 2px rgb(226, 225, 225);
+padding: 10px;
+}
+.friend button {
+	width: 45%;
+}
+.friend img {
+    width: 70%;
+    height: 120px;
+}
+.ads {
+    box-shadow: 0 0  2px 2px rgb(226, 225, 225);
+padding: 40px 10px;
+margin-bottom: 20px;
+text-align: center;
+}
+.ladybug {
+	box-shadow: 0 0  2px 2px rgb(226, 225, 225);
+padding: 40px 10px;
+text-align: center;
+}
+.my-no{
+    background-color: rgb(248,142,134);
+    margin-left: 0;
+}
+.my-yes{
+    background-color:rgb(148,207,150);
+    
+    margin-right: 0;
+}
+
+/* Kamila */
 footer{
     margin: 0;
     color: white;
@@ -425,4 +543,27 @@ footer{
 }
 .footer-underline{
     text-decoration: underline;
+}
+
+
+/* Dani */
+
+/* body {
+	background-color: grey;
+	padding: 10px 20px;
+} */
+
+
+
+/* responsive */
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
